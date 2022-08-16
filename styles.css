@@ -1,0 +1,174 @@
+
+:root {
+    --darkgrey: #5D5C61;
+    --lightgrey: #909294;
+    --lightblue: #7395AE;
+    --darkblue: #557A95;
+    --sandytan: #B1A296;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.header {
+    background: var(--darkblue);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: var(--darkblue);
+    color: white;
+}
+
+li {
+    padding: 0px 24px 0px 24px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 36px;
+}
+
+li a:hover {
+    background-color: var(--lightblue);
+}
+
+.header-logo {
+    display: flex;
+    text-align: center;
+    float: left;
+    align-items: center;
+}
+
+h3 {
+    padding: 16px;
+    display: flex;
+    text-align: center;
+    font-size: 48px;
+}
+
+.header-links {
+    display: flex;
+    text-align: center;
+    float: right;
+    text-align: center;
+    justify-content: center;
+}
+
+  
+.footer {
+    background: var(--darkblue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    margin: 0;
+}
+
+.footer h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.footer p {
+    padding: 8px;
+    margin: 0;
+}
+
+.footer button {
+    padding: 8px;
+    margin: 0;
+    background-color: var(--darkgrey);
+    color: white;
+}
+
+.header-main-content {
+    display: flex;
+    background-color: var(--darkblue);
+    padding: 48px 0px;
+    margin: 0;
+    justify-content: center;
+}
+
+.header-main-content-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    color: white;
+}
+
+.header-main-content-text h1 {
+    font-size: 48px;
+}
+
+.header-main-content-text p {
+    font-size: 24px;
+}
+
+.header-main-content-images {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.content-body-random-info {
+    display: flex;
+    padding: 48px 0px;
+    margin: 0;
+    justify-content: center;
+    background-color: var(--lightgrey);
+    flex-direction: column;
+    color: white;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 48px;
+    font-size: 36px;
+}
+
+.girl-images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.text {
+    text-align: center;
+}
+
+.quote-inspirational {
+    display: flex;
+    padding: 72px 0px;
+    margin: 0;
+    justify-content: center;
+    background-color: var(--lightblue);
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.quote-text {
+    display: flex;
+}
+
+.quote-citation {
+    display: flex;
+}
